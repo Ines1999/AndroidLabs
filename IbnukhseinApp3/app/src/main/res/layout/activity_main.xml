@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть запитання"
+        android:inputType="textMultiLine"
+        android:gravity="top"  />
+
+    <CheckBox android:id="@+id/var1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Так"
+        android:textSize="26sp"
+        />
+
+    <CheckBox android:id="@+id/var2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ні"
+        android:textSize="26sp"
+        />
+    <CheckBox android:id="@+id/var3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Часто"
+        android:textSize="26sp"
+        />
+    <CheckBox android:id="@+id/var4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Іноді"
+        android:textSize="26sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:onClick="onClick"  />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Відкрити"
+        android:onClick="onDB"  />
+
+</LinearLayout>
